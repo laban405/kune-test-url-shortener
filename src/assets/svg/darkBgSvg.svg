@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="6318" viewBox="0 0 1920 6318">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Home_1);
+      }
+
+      .cls-2 {
+        fill: #e26291;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        opacity: 0.73;
+      }
+
+      .cls-3 {
+        fill: #71aaaa;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5, .cls-8, .cls-9 {
+        opacity: 0.53;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-6, .cls-7 {
+        opacity: 0.81;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-10 {
+        fill: #212121;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4145a" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#066" stop-opacity="0.702"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dd487e"/>
+      <stop offset="1" stop-color="#6a0a2d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#066"/>
+      <stop offset="1" stop-color="#599"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.642" cy="0.217" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4145a"/>
+      <stop offset="1" stop-color="#599"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e77ca3"/>
+      <stop offset="1" stop-color="#d82e6c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e77ca3"/>
+      <stop offset="1" stop-color="#d4145a"/>
+    </linearGradient>
+    <clipPath id="clip-Home_1">
+      <rect width="1920" height="6318"/>
+    </clipPath>
+  </defs>
+  <g id="Home_1" data-name="Home – 1" class="cls-1">
+    <rect class="cls-10" width="1920" height="6318"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="458" cy="458" r="458" transform="translate(1153 4054)"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-3" cx="306" cy="306" r="306" transform="translate(-126 5422)"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-4" cx="306" cy="306" r="306" transform="translate(999 5955)"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-5" cx="310.5" cy="310.5" r="310.5" transform="matrix(0.454, -0.891, 0.891, 0.454, 1375.429, 1808.193)"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-6" cx="438.5" cy="438.5" r="438.5" transform="matrix(0.454, -0.891, 0.891, 0.454, 790, 2919.632)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-7" cx="565.5" cy="565.5" r="565.5" transform="matrix(0.454, -0.891, 0.891, 0.454, -368.216, 3992.883)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-8" cx="488" cy="488" r="488" transform="matrix(0.454, -0.891, 0.891, 0.454, 897.955, 213.264)"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-9" cx="482.5" cy="473.5" rx="482.5" ry="473.5" transform="matrix(0.454, -0.891, 0.891, 0.454, -421.564, 1448.226)"/>
+  </g>
+</svg>

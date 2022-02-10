@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect, useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { ThemeProvider } from "styled-components";
+import createRoutes from "./routes/routes";
 
-function App() {
+import useDarkTheme from "./components/useDarkTheme";
+import { lightTheme, darkTheme } from "./components/theme";
+import { GlobalStyles } from "./components/GlobalStyles";
+import { ToastContainer, Slide } from "react-toastify";
+import Layout from "./components/layouts/Layout";
+
+const App = () => {
+  const routes = createRoutes();
+
+  const [theme, themeToggler] = useDarkTheme();
+  const selectedTheme = theme === "light" ? lightTheme : darkTheme;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={selectedTheme}>
+      <GlobalStyles />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        transition={Slide}
+      />
+      <Layout themeMode={theme} themeToggler={themeToggler}>
+        {routes}
+      </Layout>
+    </ThemeProvider>
   );
-}
-
+};
 export default App;
