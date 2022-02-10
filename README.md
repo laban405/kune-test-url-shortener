@@ -22,7 +22,7 @@ Your computer should have Node js installed
 ## Screenshots
 Initialize application
 
-View saved urls
+Dark mode
 ![Screen shots](/screenshots/dark-mode.png)
 
 Actions
